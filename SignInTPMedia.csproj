@@ -8,11 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\assets\js\vendor\media\Archiver.app\Contents\Frameworks\Sparkle.framework\Versions\A\Resources\fr_CA.lproj" />
+    <None Include="wwwroot\assets\js\vendor\media\Archiver.app\Contents\Frameworks\Sparkle.framework\Versions\A\Resources\pt.lproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\js\vendor\media\Archiver.app\Contents\Resources\en.lproj\Archiver.Help\pgs2\" />
   </ItemGroup>
 
 </Project>
